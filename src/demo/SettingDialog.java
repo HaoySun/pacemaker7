@@ -88,7 +88,7 @@ public class SettingDialog extends JDialog {
             @Override
             public void actionPerformed(ActionEvent e) {
                     accepted = true;
-                    setVisible(false);//关闭对话框
+                    setVisible(true);//关闭对话框
             }
         });
     }
